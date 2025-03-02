@@ -21,7 +21,7 @@
             </div>
                 </div>
          
-            <button id="changeBgBtn" onclick=""><img src="assets/theme-btn.png" alt=""></button>
+            <button id="changeBgBtn" ><img src="assets/theme-btn.png" alt=""></button>
         </div>
     </div>
 
@@ -38,7 +38,7 @@
             <input class="" type="checkbox">
            </div>
            <div class="text-gray-500 ">Task Assigned <br>
-            <span class="text-2xl font-bold text-black">05</span></div>
+            <span class="text-2xl font-bold text-black">06</span></div>
                   
                 </div>
 
@@ -61,7 +61,7 @@
                         <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm"> using Chrome DevTools, check for overlapping......</p>
                          <div class="flex gap-10 mt-2">
                             <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
-                            <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                            <button id="completed-btn"  class="btn btn-primary btn-sm mt-2 extrx-class" onclick="disableButton()">Completed</button>
                          </div>
                     </div>
 
@@ -72,7 +72,7 @@
                          <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Store the user's preference in localStorage, update CSS....</p>
                           <div class="flex gap-10 mt-2">
                              <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
-                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                             <button id="completed-btn2"  class="btn btn-primary btn-sm mt-2 extrx-class"onclick="disableButton()">Completed</button>
                           </div>
                      </div>
 
@@ -84,17 +84,17 @@
                          <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Debug using Chrome DevTools, check for overlapping.....</p>
                           <div class="flex gap-10 mt-2">
                              <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
-                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                             <button id="completed-btn3" class="btn btn-primary btn-sm mt-2 extrx-class" onclick="disableButton()">Completed</button>
                           </div>
                      </div>
 
                      <div class="card bg-gray-100 shadow-lg p-4 rounded-lg">
-                        <button class=" my-2 px-1 py-1 w-5/12 text-center bg-white rounded-lg">Meta </button> 
+                        <button class=" my-2 px-1 py-1 w-5/12   text-center bg-white rounded-lg">Meta </button> 
                         <h2 class="text-lg font-bold">Add New Emoji ✋</h2>
                          <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Debug using Chrome DevTools, check for overlapping......</p>
                           <div class="flex gap-10 mt-2">
                              <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
-                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                             <button  id="completed-btn4" class="btn btn-primary btn-sm mt-2 extrx-class" onclick="disableButton()">Completed</button>
                           </div>
                      </div>
                      <div class="card bg-gray-100 shadow-lg p-4 rounded-lg">
@@ -103,7 +103,7 @@
                          <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Debug using Chrome DevTools, check for overlapping......</p>
                           <div class="flex gap-10 mt-2">
                              <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
-                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                             <button id="completed-btn5" class="btn btn-primary btn-sm mt-2 extrx-class" onclick="disableButton()">Completed</button>
                           </div>
                      </div>
 
@@ -113,7 +113,7 @@
                          <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Debug using Chrome DevTools, check for overlapping......</p>
                           <div class="flex gap-10 mt-2">
                              <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
-                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                             <button  id="completed-btn6" class="btn btn-primary btn-sm mt-2 extrx-class" onclick="disableButton()">Completed</button>
                           </div>
                      </div>
                 </div>
@@ -137,5 +137,6 @@
 
     <!--  link javascript -->
       <script src="javascript/button.js"></script>
+      <script src="javascript/button3.js"></script>
 </body>
 </html>
