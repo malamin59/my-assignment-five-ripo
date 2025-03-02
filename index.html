@@ -1,12 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This Is MY Assignment five </title>
-    
+    <title>Assignment five</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css">
 </head>
-<body>
-    
+<body class="bg-base-200" id="page-bg">
+
+    <!-- Navbar -->
+    <div class="navbar m-auto mt-2 text-white px-6 shadow-lg w-11/12 rounded-xl ">
+        <div class="flex-1 ">
+            <a class="text-xl text-gray-600 font-bold">Dev<span class="text-black">Board</span></a>
+        </div>
+        <div class="gap-4 w-20 bg-gray-200 p-1 rounded-2xl mr-5">
+            <div><input type="checkbox"> </div>
+               <div> <span  class="text-2xl text-black font-bold" >23</span>
+            
+            </div>
+                </div>
+         
+            <button onclick=""><img src="assets/theme-btn.png" alt=""></button>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container mx-auto py-8 px-6 ">
+        <div class="grid lg:grid-cols-3 gap-6 ">
+            
+            <!-- Left Panel -->
+            <div class="lg:col-span-2 bg-white space-y-4">
+
+                <div class="flex justify-between rounded-xl">
+                <div class="flex  gap-5 bg-gray-100 rounded-sm p-4"> 
+           <div class="mt-4">
+            <input class="" type="checkbox">
+           </div>
+           <div class="text-gray-500 ">Task Assigned <br>
+            <span class="text-2xl font-bold text-black">05</span></div>
+                  
+                </div>
+
+                   <div class="flex w-18 justify-center gap-6 py-3 px-2 items-center rounded-lg bg-gradient-to-t to-blue-700 from-blue-400">
+            <img src="assets/board.png" alt="">
+                 <h1 class="w-6/12 text-xl text-white ">   Discover Something New Today!</h1>
+                
+                </div>
+                
+             <div >
+                <input class="bg-gray-100 w-18 h-20 px-4 rounded-sm" type="date" id="datePicker" class="input input-bordered py-8">
+             </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Task Card -->
+                    <div class="card bg-gray-100 shadow-lg p-4 rounded-lg">
+                       <button class=" my-2 px-1 py-1 w-5/12 text-center bg-white rounded-lg">ShopEase </button> 
+                        <h2 class="text-lg font-bold">Fix Mobile Button Issue</h2>
+                        <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm"> using Chrome DevTools, check for overlapping......</p>
+                         <div class="flex gap-10 mt-2">
+                            <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
+                            <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                         </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="card bg-gray-100 shadow-lg p-4 rounded-lg">
+                        <button class=" my-2 px-1 py-1 w-5/12 text-center bg-white rounded-lg">CloudSync </button> 
+                         <h2 class="text-lg font-bold">Add Dark Mode</h2>
+                         <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Store the user's preference in localStorage, update CSS....</p>
+                          <div class="flex gap-10 mt-2">
+                             <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
+                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                          </div>
+                     </div>
+
+
+
+                     <div class="card bg-gray-100 shadow-lg p-4 rounded-lg">
+                        <button class=" my-2 px-1 py-1 w-5/12 text-center bg-white rounded-lg">SwiftPay </button> 
+                         <h2 class="text-lg font-bold">Optimize  Home page</h2>
+                         <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Debug using Chrome DevTools, check for overlapping.....</p>
+                          <div class="flex gap-10 mt-2">
+                             <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
+                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                          </div>
+                     </div>
+
+                     <div class="card bg-gray-100 shadow-lg p-4 rounded-lg">
+                        <button class=" my-2 px-1 py-1 w-5/12 text-center bg-white rounded-lg">Meta </button> 
+                        <h2 class="text-lg font-bold">Add New Emoji ✋</h2>
+                         <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Debug using Chrome DevTools, check for overlapping......</p>
+                          <div class="flex gap-10 mt-2">
+                             <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
+                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                          </div>
+                     </div>
+                     <div class="card bg-gray-100 shadow-lg p-4 rounded-lg">
+                        <button class=" my-2 px-1 py-1 w-5/12 text-center bg-white rounded-lg">Google LLC </button> 
+                         <h2 class="text-lg font-bold">Integrate OpenAI API </h2>
+                         <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Debug using Chrome DevTools, check for overlapping......</p>
+                          <div class="flex gap-10 mt-2">
+                             <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
+                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                          </div>
+                     </div>
+
+                     <div class="card bg-gray-100 shadow-lg p-4 rounded-lg">
+                        <button class=" my-2 px-1 py-1 w-5/12 text-center bg-white rounded-lg">Glassdoar </button> 
+                         <h2 class="text-lg font-bold">Improve Job searching </h2>
+                         <p class="text-gray-600 text-sm bg-white py-2 px-1 rounded-sm">Debug using Chrome DevTools, check for overlapping......</p>
+                          <div class="flex gap-10 mt-2">
+                             <p class="text-gray-500 text-sm mt-2 justify-between">Deadline <br> 21 March 2025</p>
+                             <button class="btn btn-primary btn-sm mt-2">Completed</button>
+                          </div>
+                     </div>
+                </div>
+            </div>
+
+            <!-- Right Panel -->
+            <div class="bg-white shadow-lg p-4 rounded-lg ">
+               <div class="">
+                <h2 class="font-semibold text-lg mb-4 text-center">Activity Log</h2>
+                <button class="btn btn-sm btn-outline mb-4 ml-32 bg-blue-800 border-none text-white">Clear History</button>
+                <div class="space-y-2 text-gray-600">
+               </div>
+                    <p>You have completed the task <b>Add Dark Mode</b> at 12:48:15 PM</p>
+                    <p>You have completed the task <b>Add Dark Mode</b> at 12:48:15 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
