@@ -43,3 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     })
 })
+
+function redirectTopage() {
+    window.location.href= "question.html"
+}

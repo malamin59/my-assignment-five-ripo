@@ -12,6 +12,7 @@
     <!-- Navbar -->
     <div class="navbar m-auto mt-2 text-white px-6 shadow-lg w-11/12 rounded-xl ">
         <div class="flex-1 ">
+         <img class="w-8 mr-2" src="assets/logo.png" alt="">
             <a class="text-xl text-gray-600 font-bold">Dev<span class="text-black">Board</span></a>
         </div>
         <div class="gap-4 w-20 bg-gray-200 p-1 rounded-2xl mr-5">
@@ -42,9 +43,9 @@
                   
                 </div>
 
-                   <div class="flex w-18 justify-center gap-6 py-3 px-2 items-center rounded-lg bg-gradient-to-t to-blue-700 from-blue-400">
-            <img src="assets/board.png" alt="">
-                 <h1 class="w-6/12 text-xl text-white ">   Discover Something New Today!</h1>
+       <div class="flex w-18 justify-center gap-6 py-3 px-2 items-center rounded-lg bg-gradient-to-t to-blue-700 from-blue-400"  onclick="redirectTopage()">
+          <img src="assets/board.png" alt="">
+          <h1 class="w-6/12 text-xl text-white ">Something New Today</h1>
                 
                 </div>
                 
@@ -119,15 +120,14 @@
                 </div>
             </div>
 
-            <!-- Right Panel -->
+           <!-- aside div -->
             <div class="bg-white shadow-lg p-4 rounded-lg ">
                <div class="">
-                <h2 class="font-semibold text-lg mb-4 text-center">Activity Log</h2>
-                <button class="btn btn-sm btn-outline mb-4 ml-32 bg-blue-800 border-none text-white">Clear History</button>
+                <h2 id="taskLog" class="font-semibold text-lg mb-4 text-center">Activity Log</h2>
+                <button  class="btn btn-sm btn-outline mb-4 ml-32 bg-blue-800 border-none text-white">Clear History</button>
                 <div class="space-y-2 text-gray-600">
-               </div>
-                    <p>You have completed the task <b>Add Dark Mode</b> at 12:48:15 PM</p>
-                    <p>You have completed the task <b>Add Dark Mode</b> at 12:48:15 PM</p>
+               </div> 
+            
                 </div>
             </div>
         </div>
