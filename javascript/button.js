@@ -10,10 +10,6 @@ const button = document.getElementById("changeBgBtn").addEventListener('click', 
 document.getElementById("completed-btn").addEventListener('click', function() {
     alert("Board updated successfuly")
 });
-function disableButton() {
-    document.getElementById("completed-btn").disabled = true
-}
-
 
 document.getElementById("completed-btn2").addEventListener('click', function() {
     alert("Board updated successfuly")
@@ -34,3 +30,16 @@ document.getElementById("completed-btn6").addEventListener('click', function() {
 })
 
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    let buttons= 
+    document.querySelectorAll(".extrx-class");
+
+    buttons.forEach(button => {
+        button.addEventListener('click', function(){ 
+            this.disabled = true;
+            this.classList.add("bg-gray-400", "cursor-not-allowed");
+        })
+    })
+})
